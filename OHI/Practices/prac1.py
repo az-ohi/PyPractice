@@ -7,3 +7,12 @@ import pyjokes
 
 joke = pyjokes.get_joke()
 print(joke)
+d = True and False
+print(d)
+e = True or False
+print(e)
+f = not(True)
+print(f)
+print(not False)
+
+
