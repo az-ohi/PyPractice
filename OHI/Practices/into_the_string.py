@@ -17,4 +17,70 @@ print(name_a.startswith("Ay"))
 print(name.capitalize())
 print(name.upper())
 print(name.lower())
+print("I am Ohi.\nI am a good boy")
+
+g_name = input("Enter your name")
+print("Good evening",g_name)
+
+x = "OHI"
+age = 28
+print(f"My name is {x} and I am {age} years old")
+print("My name is {} and I am {} years old".format(x,age))
+print("My name is %s and I am %d years old" %(x,age))
+
+
+formal = '''Dear name
+You are selcted for the project
+Date: xxy
+'''
+print(formal.replace("name","Ohi").replace("xxy","12,Oct,2024"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
