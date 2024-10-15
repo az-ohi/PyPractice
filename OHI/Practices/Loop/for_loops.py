@@ -1,7 +1,7 @@
 li = ["Ohi", "Oli", "Abbu", "Ammu", 1, 2, 3, 4, 5, 6]
 
-for i in li:
-    print()
+for i in li: #i here take value from each element in li
+    print(i)
 
 st = "OHI is a good boy"
 for i in st:
