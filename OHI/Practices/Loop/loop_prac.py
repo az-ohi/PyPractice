@@ -8,12 +8,17 @@ for i in l:
 
 n = int(input("Enter the number:"))
 
-for i in range(2, n):
-    if(n%i == 0):
-        print(f"The {n} number is not prime")
-        break #once a number found it will break no need for further progress
+if (n == 1):
+    print(f"The {n} number is not prime")
+
 else:
-    print(f"The {n} number is prime")
+    for i in range(2, n):
+
+        if(n%i == 0):
+            print(f"The {n} number is not prime")
+            break #once a number found it will break no need for further progress
+    else:
+        print(f"The {n} number is prime")
 
 # sum of till n
 
