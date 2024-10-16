@@ -6,10 +6,10 @@
 import random #for random computer input
 
 computer = random.choice([-1,0,1])
-youstr = input("Enter your choice(s/w/g): ")
-youDict = {"s":1, "w":-1, "g":0}
+youstr = input("Enter your choice(r/p/s): ")
+youDict = {"r":1, "p":-1, "s":0}
 you = youDict[youstr]
-reverseDict = {1:"Snake", -1:"Water", 0:"Gun"}
+reverseDict = {1:"Rock", -1:"Paper", 0:"Scissors"}
 
 print(f"You choose {reverseDict[you]} \nComputer choose {reverseDict[computer]}")
 
@@ -18,16 +18,16 @@ if (computer==you):
 
 else:
     if(computer==0 and you == -1):
-        print("You Won")
+        print("You loose")
     elif(computer==0 and you == 1):
-        print("You loose")
+        print("You won!!!")
     elif(computer==1 and you==-1):
-        print("You loose")
+        print("You won!!!")
     elif(computer==1 and you==0):
-        print("You Won")
-    elif(computer==-1 and you==1):
-        print("You Won")
-    elif(computer==-1 and you ==0):
         print("You loose")
+    elif(computer==-1 and you==1):
+        print("You loose")
+    elif(computer==-1 and you ==0):
+        print("You won!!!")
     else:
         print("Something went wrong")
